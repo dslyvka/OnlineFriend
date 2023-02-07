@@ -1,0 +1,32 @@
+.sendContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 10px;
+}
+
+.box {
+  background-color: #78a1bb;
+  width: 600px;
+  height: 500px;
+
+  border-radius: 5px;
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.chat {
+  overflow-y: auto;
+
+  margin: 0;
+
+  height: 420px;
+  padding: 5px 15px 0;
+}

@@ -1,0 +1,45 @@
+.message {
+  &Right {
+    display: inline-block;
+
+    min-width: 50px;
+    max-width: 450px;
+
+    word-wrap: break-word;
+
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+
+    background-color: #E2D5CD;
+  }
+
+  &Left {
+    display: inline-block;
+
+        min-width: 50px;
+    max-width: 450px;
+
+    word-wrap: break-word;
+
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+
+    background-color: #C4B8B3;
+  }
+}
+
+.liLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.liRight {
+  display: flex;
+  justify-content: flex-end;
+}
